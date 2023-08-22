@@ -28,9 +28,19 @@ export function renderTemplate(templateList, index) {
   }
   switch (templateList.templates[index]?.type) {
     case 't1':
-      return <Tempelate1 templateList={templateList} tempelateNumber={index} />;
+      return (
+        <>
+          <Tempelate1 templateList={templateList} tempelateNumber={index} />
+          <div className="page-break" />
+        </>
+      );
     case 't2':
-      return <Tempelate2 templateList={templateList} tempelateNumber={index} />;
+      return (
+        <>
+          <Tempelate2 templateList={templateList} tempelateNumber={index} />
+          <div className="page-break" />
+        </>
+      );
     default:
       return null;
   }

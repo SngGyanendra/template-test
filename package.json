@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "html2pdf.js": "^0.9.0",
     "next": "13.4.19",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-html2pdf": "^1.0.1",
+    "react-to-print": "^2.14.13"
   },
   "devDependencies": {
     "eslint": "8.47.0",
